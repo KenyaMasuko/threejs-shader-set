@@ -1,5 +1,5 @@
 // scssファイルをjsファイルにimportする
 import "@scss/style.scss";
-import obj from './modules/_module';
+import Canvas from "./modules/_canvas.js";
 
-obj.log('EISHIN');
+const canvas = new Canvas();
